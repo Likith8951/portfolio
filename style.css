@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+#header {
+    background-color: #1f2235;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+#brand img {
+    width: 100px;
+    
+}
+
+#navbar > ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navItem a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.navItem a:hover {
+    color: #ff4a47;
+}
+.icon {
+    display: inline-flex;
+}
+
+.services {
+    padding: 300px;
+    text-align: center;
+}
+.about {
+    text-align: center;
+    padding: 0;
+}
